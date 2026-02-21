@@ -1,9 +1,7 @@
 [
     {
         "type": "reaper",
-        "tags": [
-            "latest"
-        ],
+        "tags": ["latest"],
         "url": "https://my.reaperac.com/artifacts/24079-fivem.zip",
         "version": "24079"
     }
