@@ -22,7 +22,6 @@ app.get(
     cache({
         cacheName: "artifacts-api",
         cacheControl: CACHE_CONTROL,
-        keyGenerator: (c) => new URL(c.req.url).pathname,
     }),
     async (c) => {
         try {
